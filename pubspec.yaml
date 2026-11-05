@@ -1,0 +1,32 @@
+name: edu_gate_guth
+description: "نظام مصادقة طلابي تجريبي باستخدام Flutter وMVC مع Repository Pattern."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 400
+
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 600
+
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+

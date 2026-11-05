@@ -1,0 +1,32 @@
+EDU GATE — SOURCE AND LOCAL VERIFICATION STATUS
+
+Project identity:
+- Original project root: edu_gate_guth
+- Original Dart package name: edu_gate_guth
+- Android namespace/applicationId: com.example.edu_gate_guth
+- Requested final archive filename: edu_gate_guht_FINAL_SUBMISSION.zip
+
+Current reviewed source:
+- Four Arabic RTL authentication screens.
+- MVC + Repository Pattern.
+- In-memory simulated authentication and demonstration OTP 123456.
+- Arabic validation functions.
+- 33 authored tests across validators, repository, controller, and widgets (not yet executed).
+- Cairo variable-font registration and official SIL OFL 1.1 license; TTF binary is not included.
+- Remember Me now remembers only the last account identifier using Android private SharedPreferences. It does not store passwords or restore an authenticated session. Accounts remain in-memory and are lost on process restart.
+- BUILD_AND_PACKAGE.ps1 verifies raw Cairo SHA-1, raw SHA-256, and Git blob SHA-1 as separate values; it checks Flutter tests/build/APK/ZIP and publishes delivery artifacts outside the source tree.
+
+Cairo source fingerprints:
+- Raw file SHA-1: c6c60f666700c17bd38833483b5b14e7a2ebf029
+- Raw file SHA-256: 667c987182391c91f4e57a2f455b1794fb5e3ee6ca4ef3383e86bb690fa9c964
+- Git blob SHA-1: 25641b1c828857698457bcd9f5a102616b4e8033
+- Size: 599548 bytes
+
+Outstanding local verification:
+- Download official Cairo TTF to assets/fonts/Cairo-Variable.ttf.
+- Flutter/Dart SDK, Android SDK, and PowerShell are unavailable in this environment; Java 21 is present.
+- flutter pub get, flutter analyze, flutter test, and release APK build have NOT been executed.
+- PowerShell script was reviewed statically but not executed or parsed by PowerShell.
+- No verified app-release.apk or final submission ZIP has been generated.
+
+Do not describe this source package as a completed or tested academic submission until the Windows build script completes successfully and its report/logs are reviewed.
