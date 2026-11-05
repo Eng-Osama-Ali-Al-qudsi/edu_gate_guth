@@ -6,6 +6,29 @@
 
 ---
 
+## صور واجهات التطبيق (Application Screenshots)
+
+<p align="center">
+  <strong>1. تسجيل الدخول — Login</strong><br>
+  <img src="docs/screenshots/01-login.jpg" width="280" alt="Login Screen">
+</p>
+
+<p align="center">
+  <strong>2. إنشاء حساب جديد — Register</strong><br>
+  <img src="docs/screenshots/02-create-account.jpg" width="280" alt="Register Screen">
+</p>
+
+<p align="center">
+  <strong>3. استعادة كلمة المرور — Forgot Password</strong><br>
+  <img src="docs/screenshots/03-forgot-password.jpg" width="280" alt="Forgot Password Screen">
+</p>
+
+<p align="center">
+  <strong>4. تعيين كلمة مرور جديدة — Reset Password</strong><br>
+  <img src="docs/screenshots/04-reset-password.jpg" width="280" alt="Reset Password Screen">
+</p>
+
+
 ## 1. معلومات المشروع
 
 | العنصر | التفاصيل |
